@@ -370,10 +370,10 @@ def listar_contas(contas):
 
 def main():
     clientes = []
-    contas = []
+    contas = [] 
 
     while True:
-        opcao = menu()
+        opcao =  menu()
 
         if opcao == "d":
             depositar(clientes)
